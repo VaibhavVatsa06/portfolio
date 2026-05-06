@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaibhav Vatsa | Software Developer</title>
+  <meta name="description" content="Vaibhav Vatsa — Software Developer focused on Web Development & React.js. SDE Intern at BlueStock." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav>
+  <a class="nav-logo" href="#hero"><span>&lt;</span>VV<span>/&gt;</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <!-- Resume opens in new tab like GitHub / LinkedIn -->
+    <li><a class="nav-resume" href="Vaibhav_vatsa___Software.pdf" target="_blank" rel="noopener">Resume ↗</a></li>
+  </ul>
+  <div class="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<main>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-inner">
+
+      <!-- Left: text -->
+      <div class="hero-content">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Vaibhav Vatsa</h1>
+        <h2 class="hero-role">
+          <span id="typing-role"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc">
+          Electronics &amp; Communication Engineering student at DSCE, Bengaluru.
+          Passionate about <strong>Web Development</strong> and building fast, responsive digital experiences.
+          I code in <strong>C++</strong> with a keen interest in <strong>DSA</strong>, have built
+          several ML-based projects, and work with <strong>Claude Code</strong> for AI-assisted development.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <!-- GitHub -->
+          <a href="https://github.com/vaibhavvatsa06" target="_blank" rel="noopener" class="social-link">
+            <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/vaibhavvatsa06" target="_blank" rel="noopener" class="social-link">
+            <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <!-- Email -->
+          <a href="mailto:vaibhavdsce22@gmail.com" class="social-link">
+            <svg class="social-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            Email
+          </a>
+          <!-- Resume — opens same as GitHub/LinkedIn -->
+          <a href="Vaibhav_vatsa___Software.pdf" target="_blank" rel="noopener" class="social-link">
+            <svg class="social-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            Resume
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: profile photo -->
+      <!-- Drop your photo as profile.jpg into this folder -->
+      <div class="hero-image-wrap">
+        <div class="hero-image-ring">
+          <img
+            src="Self.jpg.jpeg"
+            alt="Vaibhav Vatsa"
+            class="hero-img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="hero-img-fallback">VV</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="container">
+    <p class="section-label fade-in">Get to know me</p>
+    <h2 class="section-title fade-in">About Me</h2>
+    <div class="section-divider fade-in"></div>
+    <div class="about-grid">
+      <div class="about-text fade-in">
+        <p>
+          I'm a <span>final-year ECE student</span> at DSCE, Bengaluru with a strong focus on
+          <span>Web Development</span>. I enjoy turning ideas into clean, functional products —
+          from responsive frontends to scalable backend systems.
+        </p>
+        <p>
+          I've interned at <span>BlueStock</span> (fintech APIs &amp; trading platforms) and
+          <span>Startup Folks</span> (React.js web apps). I've also worked with <span>Claude Code</span> —
+          including spec-driven development, subagents, custom subagents, and
+          <span>MCP (Model Context Protocol)</span> — bringing AI-assisted workflows into real projects.
+          Outside of work, I've built several ML-based projects and enjoy competing in hackathons.
+        </p>
+      </div>
+      <div class="about-quick fade-in">
+        <div class="about-quick-item">
+          <span class="label">Role</span>
+          <span class="value">Software Developer</span>
+        </div>
+<div class="about-quick-item">
+          <span class="label">Education</span>
+          <span class="value">B.E. ECE, DSCE (2026)</span>
+        </div>
+        <div class="about-quick-item">
+          <span class="label">Location</span>
+          <span class="value">Bengaluru, India</span>
+        </div>
+        <div class="about-quick-item">
+          <span class="label">Email</span>
+          <span class="value">vaibhavdsce22@gmail.com</span>
+        </div>
+        <div class="about-quick-item">
+          <span class="label">Interests</span>
+          <span class="value">React.js, Node.js, MongoDB, C++, Python, ML Models</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section id="experience">
+  <div class="container">
+    <p class="section-label fade-in">Where I've worked</p>
+    <h2 class="section-title fade-in">Experience</h2>
+    <div class="section-divider fade-in"></div>
+    <div class="exp-list">
+
+      <div class="exp-card fade-in">
+        <div class="exp-header">
+          <span class="exp-company">BlueStock</span>
+          <span class="exp-date">Jan 2026 – March 2026</span>
+        </div>
+        <div class="exp-role"><strong>SDE Intern</strong> &nbsp;·&nbsp; Bengaluru, India</div>
+        <ul class="exp-points">
+          <li>Built and maintained scalable web applications by developing REST APIs, managing databases, and implementing frontend components.</li>
+          <li>Contributed to fintech software development by working on stock market–oriented systems such as trading and payment platforms.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">React.js</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">Fintech</span>
+        </div>
+      </div>
+
+      <div class="exp-card fade-in">
+        <div class="exp-header">
+          <span class="exp-company">Startup Folks</span>
+          <span class="exp-date">Aug – Oct 2025</span>
+        </div>
+        <div class="exp-role"><strong>Frontend Developer Intern</strong> &nbsp;·&nbsp; Bengaluru, India</div>
+        <ul class="exp-points">
+          <li>Developed and maintained responsive, high-performance web applications using React.js, enhancing user experience and minimizing UI inconsistencies.</li>
+          <li>Implemented client-side performance optimizations, significantly reducing page load times and improving overall site responsiveness.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">React.js</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">Performance</span>
+          <span class="tag">UX</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="container">
+    <p class="section-label fade-in">Things I've built</p>
+    <h2 class="section-title fade-in">Projects</h2>
+    <div class="section-divider fade-in"></div>
+    <div class="projects-grid">
+
+      <!-- Telegram Bot -->
+      <!-- TODO: Replace href with actual GitHub repo URL when available -->
+      <div class="project-card fade-in">
+        <div class="project-top">
+          <span class="project-icon">🤖</span>
+          <div class="project-links">
+            <a href="https://github.com/vaibhavvatsa06" target="_blank" rel="noopener" class="project-link" title="View on GitHub">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              Code
+            </a>
+          </div>
+        </div>
+        <h3 class="project-name">Telegram Anti-Bullying Bot</h3>
+        <p class="project-desc">A Python Telegram bot that mitigates cyber-bullying through automated content monitoring — identifies harmful messages, issues warnings, removes content, or bans users in real time.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Telegram API</span>
+          <span class="tag">NLP</span>
+          <span class="tag">Automation</span>
+        </div>
+      </div>
+
+      <!-- Audio Steganography -->
+      <!-- TODO: Replace href with actual GitHub repo URL when available -->
+      <div class="project-card fade-in">
+        <div class="project-top">
+          <span class="project-icon">🎵</span>
+          <div class="project-links">
+            <a href="https://github.com/vaibhavvatsa06" target="_blank" rel="noopener" class="project-link" title="View on GitHub">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              Code
+            </a>
+          </div>
+        </div>
+        <h3 class="project-name">Audio Steganography</h3>
+        <p class="project-desc">A GUI-based steganography system built with Tkinter, enabling secure embedding and extraction of text, images, and audio within WAV files using signal processing techniques.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Tkinter</span>
+          <span class="tag">Steganography</span>
+          <span class="tag">Signal Processing</span>
+        </div>
+      </div>
+
+      <!-- Fake News Detection -->
+      <!-- TODO: Replace href with actual GitHub repo URL when available -->
+      <div class="project-card fade-in">
+        <div class="project-top">
+          <span class="project-icon">📰</span>
+          <div class="project-links">
+            <a href="https://github.com/vaibhavvatsa06" target="_blank" rel="noopener" class="project-link" title="View on GitHub">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              Code
+            </a>
+          </div>
+        </div>
+        <h3 class="project-name">Fake News Detection via Lip Sync</h3>
+        <p class="project-desc">A deep learning model combining CNN and LSTM networks to recognize spoken words from visual lip movements in videos — used to detect AI-generated deepfake/fake news videos.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">CNN</span>
+          <span class="tag">LSTM</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Computer Vision</span>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <!-- TODO: Replace href with actual GitHub repo URL when available -->
+      <div class="project-card fade-in">
+        <div class="project-top">
+          <span class="project-icon">🌐</span>
+          <div class="project-links">
+            <a href="https://github.com/vaibhavvatsa06" target="_blank" rel="noopener" class="project-link" title="View on GitHub">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              Code
+            </a>
+          </div>
+        </div>
+        <h3 class="project-name">Portfolio Website</h3>
+        <p class="project-desc">A personal developer portfolio showcasing projects, skills, and experience — built with a focus on clean UI, smooth animations, and professional presentation of technical work.</p>
+        <div class="project-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS (single section, all icons) ── -->
+<section id="skills">
+  <div class="container">
+    <p class="section-label fade-in">Technologies I use</p>
+    <h2 class="section-title fade-in">Skills</h2>
+    <div class="section-divider fade-in"></div>
+    <div class="skills-icons-grid fade-in">
+
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
+        <span>HTML5</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
+        <span>CSS3</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
+        <span>Python</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+        <span>C++</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React.js" />
+        <span>React.js</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+        <span>Node.js</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express.js" class="icon-light" />
+        <span>Express.js</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+        <span>MongoDB</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="SQL" />
+        <span>SQL</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" />
+        <span>TensorFlow</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" />
+        <span>PyTorch</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" alt="Keras" />
+        <span>Keras</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="NumPy" />
+        <span>NumPy</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" />
+        <span>Git</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" class="icon-light" />
+        <span>GitHub</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecolab/googlecolab-original.svg" alt="Google Colab" />
+        <span>Google Colab</span>
+      </div>
+      <div class="skill-icon-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" alt="Kaggle" />
+        <span>Kaggle</span>
+      </div>
+      <div class="skill-icon-item">
+        <div class="skill-icon-text">CC</div>
+        <span>Claude Code</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── ACHIEVEMENTS ── -->
+<section id="achievements">
+  <div class="container">
+    <p class="section-label fade-in">Highlights</p>
+    <h2 class="section-title fade-in">Achievements</h2>
+    <div class="section-divider fade-in"></div>
+    <div class="achieve-grid">
+
+      <!-- TODO: drop hack-hackathon.jpg into the portfolio folder -->
+      <div class="achieve-card achieve-card--portrait fade-in">
+        <div class="achieve-img-wrap">
+          <img
+            src="hack-hackathon.jpg.JPG"
+            alt="Hack-O-Rama Hackathon"
+            class="achieve-img img-landscape"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="achieve-img-fallback">🏆</div>
+        </div>
+        <div class="achieve-body">
+          <div class="achieve-title">Hack-O-Rama Hackathon</div>
+          <div class="achieve-meta">Secured 4th place among 50 teams · DSCE, Bengaluru · Jan 2024</div>
+        </div>
+      </div>
+
+      <!-- TODO: drop hack-aventus2.jpg into the portfolio folder -->
+      <div class="achieve-card achieve-card--portrait fade-in">
+        <div class="achieve-img-wrap">
+          <img
+            src="hack-aventus2.jpg.jpg"
+            alt="Aventus 2.0"
+            class="achieve-img img-portrait"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="achieve-img-fallback">🚀</div>
+        </div>
+        <div class="achieve-body">
+          <div class="achieve-title">National Hackathon Aventus 2.0</div>
+          <div class="achieve-meta">Participated · DSCE, Bengaluru · May 2024</div>
+        </div>
+      </div>
+
+      <!-- TODO: drop hack-aventus3.jpg into the portfolio folder -->
+      <div class="achieve-card achieve-card--portrait fade-in">
+        <div class="achieve-img-wrap">
+          <img
+            src="hack-aventus3.jpg.jpg"
+            alt="Aventus 3.0"
+            class="achieve-img img-portrait"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="achieve-img-fallback">🌟</div>
+        </div>
+        <div class="achieve-body">
+          <div class="achieve-title">National Hackathon Aventus 3.0</div>
+          <div class="achieve-meta">Participated · DSCE, Bengaluru · May 2025</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CERTIFICATIONS ── -->
+<section id="certifications">
+  <div class="container">
+    <p class="section-label fade-in">Credentials</p>
+    <h2 class="section-title fade-in">Licenses &amp; Certifications</h2>
+    <div class="section-divider fade-in"></div>
+    <div class="cert-list">
+
+      <div class="cert-card fade-in">
+        <div class="cert-icon">☁️</div>
+        <div>
+          <div class="cert-name">Cloud Computing</div>
+          <div class="cert-issuer">NPTEL &nbsp;·&nbsp; IIT Kharagpur</div>
+        </div>
+        <div class="cert-date">April 2025</div>
+      </div>
+
+      <div class="cert-card fade-in">
+        <div class="cert-icon">💻</div>
+        <div>
+          <div class="cert-name">C Programming Fundamentals</div>
+          <div class="cert-issuer">Google Developers Launchpad</div>
+        </div>
+        <div class="cert-date">August 2022</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION ── -->
+<section id="education" style="background:var(--surface)">
+  <div class="container">
+    <p class="section-label fade-in">Academic background</p>
+    <h2 class="section-title fade-in">Education</h2>
+    <div class="section-divider fade-in"></div>
+    <div class="edu-card fade-in">
+      <div class="edu-icon">🎓</div>
+      <div>
+        <div class="edu-school">Dayananda Sagar College of Engineering</div>
+        <div class="edu-degree">Bachelor of Engineering — Electronics &amp; Communication Engineering</div>
+        <div class="edu-date">2022 – 2026 · Bengaluru, India</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── VOLUNTEER ── -->
+<section id="volunteer">
+  <div class="container">
+    <p class="section-label fade-in">Community</p>
+    <h2 class="section-title fade-in">Volunteer Work</h2>
+    <div class="section-divider fade-in"></div>
+    <div class="vol-list">
+
+      <!-- Drop vol-web3.jpg into this folder for the image to appear -->
+      <div class="vol-card fade-in">
+        <div class="vol-img-wrap">
+          <img
+            src="vol-web3.jpg.jpg"
+            alt="Web-3 Community"
+            class="vol-img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="vol-img-fallback">⛓️</div>
+        </div>
+        <div class="vol-body">
+          <div class="vol-org">Web-3 Community</div>
+          <div class="vol-role">Member &nbsp;·&nbsp; Bengaluru, India</div>
+          <div class="vol-desc">Part of a dynamic team driving Web3 and blockchain innovation — exploring decentralised technologies, DeFi, and the future of the open web.</div>
+          <div class="vol-date">Jan 2023 – May 2026</div>
+        </div>
+      </div>
+
+      <!-- Drop vol-numerano.jpg into this folder for the image to appear -->
+      <div class="vol-card fade-in">
+        <div class="vol-img-wrap">
+          <img
+            src="vol-numerano.jpg.JPG"
+            alt="NUMERANO Maths Club"
+            class="vol-img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="vol-img-fallback">🔢</div>
+        </div>
+        <div class="vol-body">
+          <div class="vol-org">NUMERANO — Maths Club, DSCE</div>
+          <div class="vol-role">Core Member &nbsp;·&nbsp; Bengaluru, India</div>
+          <div class="vol-desc">Core member of the college mathematics club — organising problem-solving events, quizzes, and sessions to foster analytical thinking among students.</div>
+          <div class="vol-date">Jan 2023 – May 2026</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact" style="background:var(--surface)">
+  <div class="container" style="text-align:center">
+    <p class="section-label fade-in">What's next?</p>
+    <h2 class="section-title fade-in">Get In Touch</h2>
+    <div class="section-divider fade-in" style="margin:0 auto 2rem;"></div>
+    <p class="contact-desc fade-in">
+      I'm always open to new opportunities, exciting collaborations, and interesting conversations.
+      Whether it's a job offer, a cool project idea, or just a hello — my inbox is open!
+    </p>
+    <div class="contact-links fade-in">
+      <a href="mailto:vaibhavdsce22@gmail.com" class="contact-link">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        Email
+      </a>
+      <a href="https://github.com/vaibhavvatsa06" target="_blank" rel="noopener" class="contact-link">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/in/vaibhavvatsa06" target="_blank" rel="noopener" class="contact-link">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="Vaibhav_vatsa___Software.pdf" target="_blank" rel="noopener" class="contact-link">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        Resume
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>Designed &amp; Built by <span>Vaibhav Vatsa</span> · © 2026</p>
+</footer>
+
+<button id="scroll-top" aria-label="Scroll to top">↑</button>
+
+<style>
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+  .cursor { color: var(--accent); animation: blink 1s step-end infinite; }
+</style>
+
+<script src="script.js"></script>
+</body>
+</html>
