@@ -2,7 +2,7 @@
 
 Personal portfolio website built with plain HTML, CSS, and JavaScript. No frameworks, no build tools — just clean code.
 
-**Live at:** [github.com/VaibhavVatsa06/portfolio](https://github.com/VaibhavVatsa06/portfolio)
+**Live at:** [github.com/VaibhavVatsa06/portfolio( https://vaibhavvatsa06.github.io/portfolio/)
 
 ---
 
